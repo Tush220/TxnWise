@@ -12,6 +12,7 @@ import { fetchTokenPrices } from '@/lib/prices';
 
 const CHAINS = [
   { id: 'ethereum', name: 'Ethereum' },
+  { id: 'bsc', name: 'BNB Chain' },
   { id: 'polygon', name: 'Polygon' },
   { id: 'arbitrum', name: 'Arbitrum' },
   { id: 'optimism', name: 'Optimism' },
@@ -21,6 +22,7 @@ const CHAINS = [
 
 const NATIVE_PRICE_IDS: Record<string, string> = {
   ethereum: 'ethereum',
+  bsc:'binancecoin',
   polygon: 'matic-network',
   arbitrum: 'ethereum',
   optimism: 'ethereum',
